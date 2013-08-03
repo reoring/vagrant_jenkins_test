@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Port &quot;80&quot;" tests="1" time="2.764222" failures="1" errors="0" skipped="0">
+  <testcase name="Port &quot;80&quot; " time="0.010927">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected Port &quot;80&quot; to be listening">
+expected Port "80" to be listening (RSpec::Expectations::ExpectationNotMetError)
+expected Port "80" to be listening
+     ./spec/default/httpd_spec.rb:13:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

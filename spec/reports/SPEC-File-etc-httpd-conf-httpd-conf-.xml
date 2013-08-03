@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="File &quot;/etc/httpd/conf/httpd.conf&quot;" tests="2" time="2.694724" failures="2" errors="0" skipped="0">
+  <testcase name="File &quot;/etc/httpd/conf/httpd.conf&quot; " time="0.010502">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected file? to return true, got false">
+expected file? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+expected file? to return true, got false
+     ./spec/default/httpd_spec.rb:17:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <testcase name="File &quot;/etc/httpd/conf/httpd.conf&quot; " time="0.008573">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected File &quot;/etc/httpd/conf/httpd.conf&quot; to contain &quot;ServerName default&quot;">
+expected File "/etc/httpd/conf/httpd.conf" to contain "ServerName default" (RSpec::Expectations::ExpectationNotMetError)
+expected File "/etc/httpd/conf/httpd.conf" to contain "ServerName default"
+     ./spec/default/httpd_spec.rb:18:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

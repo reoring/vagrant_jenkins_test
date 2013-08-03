@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="File &quot;/etc/httpd/conf/httpd.conf&quot;" tests="2" time="2.824616" failures="2" errors="0" skipped="0">
+  <testcase name="File &quot;/etc/httpd/conf/httpd.conf&quot; " time="0.010084">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected file? to return true, got false">
+expected file? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+expected file? to return true, got false
+     ./spec/wheezy/httpd_spec.rb:17:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <testcase name="File &quot;/etc/httpd/conf/httpd.conf&quot; " time="0.009874">
+    <failure type="RSpec::Expectations::ExpectationNotMetError" message="expected File &quot;/etc/httpd/conf/httpd.conf&quot; to contain &quot;ServerName wheezy&quot;">
+expected File "/etc/httpd/conf/httpd.conf" to contain "ServerName wheezy" (RSpec::Expectations::ExpectationNotMetError)
+expected File "/etc/httpd/conf/httpd.conf" to contain "ServerName wheezy"
+     ./spec/wheezy/httpd_spec.rb:18:in `block (2 levels) in &lt;top (required)&gt;'    </failure>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
