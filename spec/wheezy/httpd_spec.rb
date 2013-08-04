@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe package('httpd') do
+describe package('apache2') do
   it { should be_installed }
 end
 
-describe service('httpd') do
+describe service('apache2') do
   it { should be_enabled   }
   it { should be_running   }
 end
@@ -13,7 +13,7 @@ describe port(80) do
   it { should be_listening }
 end
 
-describe file('/etc/httpd/conf/httpd.conf') do
+describe file('/etc/apache2/apache2.conf') do
   it { should be_file }
-  it { should contain "ServerName wheezy" }
+  it { should contain "HostnameLookups Off" }
 end
