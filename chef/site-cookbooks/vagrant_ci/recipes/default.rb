@@ -4,5 +4,5 @@ end
 
 service "apache2" do
     supports :restart => true, :reload => true
-    action :enable
+    action :disable
 end
